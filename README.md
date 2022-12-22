@@ -1,29 +1,42 @@
-# README #
+# Nuxt 3 Minimal Starter
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-### What is this repository for? ###
+## Setup
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Make sure to install the dependencies:
 
-### How do I get set up? ###
+```bash
+# yarn
+yarn install
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+# npm
+npm install
 
-### Contribution guidelines ###
+# pnpm
+pnpm install --shamefully-hoist
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+## Development Server
 
-### Who do I talk to? ###
+Start the development server on http://localhost:3000
 
-* Repo owner or admin
-* Other community or team contact
+```bash
+npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
